@@ -56,7 +56,7 @@ function Section({children, title}: SectionProps): JSX.Element {
         });
     
       } catch (error) {
-        console.log('error', error);
+        console.log('createTable error', error);
         reject();
       }
     });    
